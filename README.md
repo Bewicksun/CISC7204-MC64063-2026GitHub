@@ -1,4 +1,12 @@
-# CISC7204 — Assignment 02 (2026)
+# CISC7204 · Data Science and Data Visualization (2026)
+
+Coursework by SUN JIAWEI, University of Macau.
+
+- [Assignment 01](cisc7204-Assgn01-2026-MC64063/) — Modules 01–06 and the preliminary Macao proposal analysis.
+- [Assignment 02](cisc7204-Assgn02-2026-MC64063/) — Modules 01–05 and the revised Macao proposal analysis.
+- [Personal Data Science Portfolio](https://bewicksun.github.io/data-science-portfolio/).
+
+## Assignment 02 · Review guide
 
 **Student:** SUN JIAWEI · **Student ID used for this repository:** MC64063  
 **Git commit email:** mc64063@um.edu.mo  
