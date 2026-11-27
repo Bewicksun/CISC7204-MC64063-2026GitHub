@@ -2,40 +2,36 @@
 
 Coursework by SUN JIAWEI, University of Macau.
 
-- [Assignment 01](cisc7204-Assgn01-2026-MC64063/) — Modules 01–06 and the preliminary Macao proposal analysis.
-- [Assignment 02](cisc7204-Assgn02-2026-MC64063/) — Modules 01–05 and the revised Macao proposal analysis.
-- [Personal Data Science Portfolio](https://bewicksun.github.io/data-science-portfolio/).
+## Assignment 01 · Data Analysis with Python
 
-## Assignment 02 · Review guide
-
-**Student:** SUN JIAWEI · **Student ID used for this repository:** MC64063  
-**Git commit email:** mc64063@um.edu.mo  
-**Course:** Data Science and Data Visualization, University of Macau
-
-Assignment artifacts are organized under [`cisc7204-Assgn02-2026-MC64063`](cisc7204-Assgn02-2026-MC64063), following the optional GitHub repository instructions. Original assignment filenames containing MC640633 have been retained; the repository identifier follows the UM email and Moodle identifier.
+Data preparation, exploratory analysis, and regression across six modules. The Macao proposal compares annual visitor arrivals and gaming revenue against their 2019 totals.
 
 | Folder | Work included |
-|---|---|
+| --- | --- |
+| [Module01](cisc7204-Assgn01-2026-MC64063/Module01/) | Importing and inspecting automobile and laptop pricing data |
+| [Module02](cisc7204-Assgn01-2026-MC64063/Module02/) | Cleaning, transforming, and encoding data |
+| [Module03](cisc7204-Assgn01-2026-MC64063/Module03/) | Exploratory visualization and correlation |
+| [Module04](cisc7204-Assgn01-2026-MC64063/Module04/) | Linear and polynomial regression, pipelines, and model metrics |
+| [Module05](cisc7204-Assgn01-2026-MC64063/Module05/) | Cross-validation, regularization, and parameter search |
+| [Module06](cisc7204-Assgn01-2026-MC64063/Module06/) | Practice project on insurance charges and final project on house prices |
+| [Proposal](cisc7204-Assgn01-2026-MC64063/proposal/) | Preliminary Macao tourism and gaming recovery analysis using annual totals for 2019–2025 |
+
+[Assignment 01 notebooks and review guide](cisc7204-Assgn01-2026-MC64063/)
+
+## Assignment 02 · Data Visualization with Python
+
+Matplotlib, Plotly, and Dash work across five modules. The revised Macao proposal compares recovery in each month with the corresponding month in 2019.
+
+| Folder | Work included |
+| --- | --- |
 | [Module01](cisc7204-Assgn02-2026-MC64063/Module01) | Dataset exploration, preprocessing, Matplotlib and line plots |
 | [Module02](cisc7204-Assgn02-2026-MC64063/Module02) | Area, histogram, bar, pie, box, scatter and bubble plots |
 | [Module03](cisc7204-Assgn02-2026-MC64063/Module03) | Waffle charts, word clouds, regression and geospatial visualization |
 | [Module04](cisc7204-Assgn02-2026-MC64063/Module04) | Plotly basics and Dash applications (Labs 01–04) |
 | [Module05-Practice](cisc7204-Assgn02-2026-MC64063/Module05-Practice) | Australian wildfire analysis and dashboard |
 | [Module05-Final](cisc7204-Assgn02-2026-MC64063/Module05-Final) | Automobile sales analysis and interactive dashboard |
-| [proposal](cisc7204-Assgn02-2026-MC64063/proposal) | Revised pair project proposal and Macao recovery analysis |
+| [Proposal](cisc7204-Assgn02-2026-MC64063/proposal/) | Revised pair proposal and Macao tourism and gaming recovery by month |
 
-## How to review
+[Assignment 02 notebooks, dashboards and review guide](cisc7204-Assgn02-2026-MC64063/)
 
-Browse each module for notebooks, dashboard Python scripts, screenshots and the existing project-space ZIPs. Open notebooks using Jupyter; launch Dash scripts from their own directory after installing the imports used by that lab. Several labs download course datasets from URLs in their code, so an internet connection is needed. Course lab instructions and source credits remain in the notebooks.
-
-## Verification scope and known issue
-
-This repository preserves the supplied coursework artifacts and saved outputs. It does **not** claim that all labs have been rerun or graded. Module01 Lab01 contains a saved `TypeError` at `df_can['Total'] = df_can.sum(axis=1)`, where text and numeric columns are mixed. This output is retained transparently and needs review before treating the notebook as a clean run. Some code cells in other notebooks also have no saved execution count.
-
-The separately documented [Macao recovery project](https://github.com/Bewicksun/data-science-project) was successfully rerun during portfolio preparation. [Live portfolio](https://bewicksun.github.io/data-science-portfolio/).
-
-## Attribution and AI assistance
-
-Course-provided notebook instructions, educational datasets and third-party materials retain their original ownership and terms; this repository does not grant a new licence over them. Dataset sources are recorded in the notebooks. Macao source links and usage notes are in `proposal/SOURCES.md`. Local IDE settings and source website archives are excluded.
-
-OpenAI Codex assisted with organizing existing files, preparing this repository documentation, configuring GitHub and posting the repository links. This statement describes this repository setup; refer to the original work for any separate AI declarations.
+[Personal Data Science Portfolio](https://bewicksun.github.io/data-science-portfolio/) · [Semester Project](https://github.com/Bewicksun/data-science-project/tree/main/semester-project)
